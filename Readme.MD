@@ -36,7 +36,7 @@ Standard DD uses fixed sequences like:
 
 These are general-purpose but not tailored to your specific quantum circuit or hardware. Dynamic Decoupling could be made very specific for the hardware, but it assumes we know the interactions of the circuit with the environment. We can optimize the circuit by learning the parameters from the circuit, calcuting the cost function.
 
-## Why learning it matters?
+## Better learned
 Every quantum circuit interacts with noise in a unique way depending on:
 
 - Its structure (which qubits are idle and when)
@@ -46,7 +46,7 @@ Every quantum circuit interacts with noise in a unique way depending on:
 Traditional DD sequences ignore this.
 But Learning Dynamical Decoupling (LDD):
 
-- Optimizes pulse timing and phases for your specific circuit
+- Optimizes pulse timing and phases for specific circuits
 
 - Learns parameters that suppress real decoherence
 
@@ -54,7 +54,6 @@ But Learning Dynamical Decoupling (LDD):
 
 This means better fidelity, less noise, and more scalable error mitigation.
 
-## What we provide? (hardware-specific, learned DD via pulse sequences)
 
 In this notebook, we implement a smart, adaptive Dynamical Decoupling system based on https://arxiv.org/abs/2405.08689v1:
 
