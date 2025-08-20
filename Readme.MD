@@ -62,5 +62,3 @@ In this notebook, we implement a smart, adaptive Dynamical Decoupling system bas
 - Uses optimization (SPSA) to minimize decoherence
 - Fully compatible with IBM backends and pulse scheduling
 - Benchmarks LDD vs. No-DD and Standard DD sequences
-
-Our method doesn’t just guess — it learns what works best on your hardware, for your circuit.
