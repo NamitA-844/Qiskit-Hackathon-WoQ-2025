@@ -13,7 +13,7 @@ the file `final_notebook.ipynb` contains the code for the hackathon submission.
 - Jakob Hellbardt
 
 ## Learning to Dynamically Decouple
-### Smart Dynamic Decoupling system that optimizes for your circuit
+### Smart Dynamic Decoupling system for circuit optimization
 
 
 Our work takes inspiration from the paper [Learning Dynamical Decoupling](https://arxiv.org/abs/2405.08689v1) and implements a smart, adaptive Dynamical Decoupling system that learns optimal pulse-level sequences for error mitigation on quantum circuits.
